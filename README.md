@@ -28,4 +28,4 @@ Let's do a pratical example using Postman:
    ![](images-readme/login.png)  
    In this post request are passed the credential of the user so email and password, if these credentials are correct an new token is added in  
    the property token of the user stored in the db, let's see it:  
-   ![](images-readme/logged-in.png)
+   ![](images-readme/logged-in-new-token.png)
