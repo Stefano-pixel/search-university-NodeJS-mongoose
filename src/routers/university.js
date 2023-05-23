@@ -34,7 +34,6 @@ router.post("/university", auth, async (req, res, next) => {
     });
     res.status(200).json({ created: true });
   } catch (e) {
-    console.log("post university-------------------------");
     console.log(e);
     res.status(400).send(e);
   }
@@ -73,7 +72,6 @@ router.patch("/university", auth, async (req, res, next) => {
     }
     res.status(200).json({ update: true });
   } catch (e) {
-    console.log("patch university----------------------");
     console.log(e);
     res.status(400).send(e);
   }
